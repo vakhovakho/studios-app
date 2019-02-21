@@ -7,7 +7,7 @@ little app for managing studios list and listening to websocket to insert recent
 1. composer install
 2. npm install
 3. php artisan migrate:fresh --seed
-4. php artisan serve (start your local server) 
+4. php artisan serve //start your local server
 5. php artisan websockets:serve
 ```
 **Main tools used in this proect:**
