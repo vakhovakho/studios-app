@@ -1,0 +1,48 @@
+#app {
+    text-align: center;
+
+    .wrapper {
+        width: 60%;
+        margin: 0 auto;
+        padding: 10px;
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .list-column {
+            &:first-child {
+                border-right: 1px solid #999;
+            }
+
+            .list-items {
+                list-style-type: none;
+                padding: 0;
+
+                li {
+                    display: flex;
+                    justify-content: space-between;
+
+                    a {
+                        text-decoration: none;
+
+                        &:first-child {
+                            color: purple;
+                        }
+
+                        &:last-child {
+                            color: orange;
+                        }
+                    }
+                }
+            }
+        }
+
+        .pagination {
+            margin-top: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+}
