@@ -1,8 +1,12 @@
 # studios-app
 
-little app for managing studios list and listening to websocket to insert recently added studios
+Little app for managing studios list and listening to websocket to insert recently added studios
 
-###**before get app working, run following commands:**
+## Before getting started:
+*Configure Your Laravel App's .env variables for Laravel-websockets package
+and bootstrap.js for pusher settings*
+
+## To get App working, run following commands:
 ```
 1. composer install
 2. npm install
@@ -10,6 +14,7 @@ little app for managing studios list and listening to websocket to insert recent
 4. php artisan serve //start your local server
 5. php artisan websockets:serve
 ```
+
 **Main tools used in this proect:**
 * Laravel PHP framework
 * laravel-websockets package
