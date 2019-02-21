@@ -15,8 +15,7 @@ and bootstrap.js for pusher settings*
 5. php artisan websockets:serve
 ```
 
-*To test app navigate to* **homepage** *and in the other tab or window open* **'/update'** *url,
-this will add new studio dumb data in your database and update your homepage without refreshing it!*
+> *To test app navigate to* **homepage** *and in the other tab or window open* **'/update'** *url. this will add new studio dumb data in your database and update your homepage without refreshing it!*
 
 **Main tools used in this proect:**
 * Laravel PHP framework
